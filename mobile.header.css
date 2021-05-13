@@ -1,0 +1,81 @@
+@media all and (max-width: 800px) {
+header {
+    width: 375px;
+    height: 64px;  
+    background-color: #FFFFFF; 
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    margin-top: -3%;
+ 
+
+}
+
+.easybank {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+}
+
+.menu {
+    width:80%;
+    display: block;
+    justify-content: space-between;
+    /* margin-top: 33px; */
+   display: none;
+}
+.mobile-menu {
+    margin-left: 50%
+}
+
+.menu > li > a {
+    color: #2D314D;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+li {
+   
+    list-style: none;
+    position:relative;
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background: linear-gradient(135deg, #33D35E, #2AB6D9);
+    border-radius: 22px;
+    border: 0.5px solid transparent;
+    width: 163px;
+    height: 44px;
+    text-align: center;
+    display:none;
+  
+   
+    margin-top: -20px;
+}
+.btn > a {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 14px;
+}
+p {
+    color: grey; 
+}
+
+}
+
+.close {
+display: none;
+}
+.hamburger{
+display: block;
+}
+
+

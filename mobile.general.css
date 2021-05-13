@@ -1,0 +1,92 @@
+@media all and (max-width: 800px) {
+
+    /* section general */
+aside {
+    width: 100%;
+    display: block;
+    padding-left: 24px;
+    padding-top: 300px;
+    background: url('./images/bg-intro-mobile.svg');
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+}
+aside :last-child {
+    margin-left:15%;
+   margin-top:30px;
+
+}
+aside > p {
+color: #9597A5;
+font-size: 15px;
+font-weight: 400;
+text-align: left;
+   
+ }
+ .btnAside {
+    background: linear-gradient(135deg, #33D35E, #2AB6D9);
+    border-radius: 22px;
+    border: 0.5px solid transparent;
+    width: 163px;
+    height: 44px;
+    text-align: center;
+    display:block;
+   
+    margin-top: -20px;
+}
+.btnAside > a {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    display: block;  
+    background: url('./images/bg-intro-mobile.svg');
+  
+    background-position-y:  -650px;
+  
+ position: absolute;
+   
+}
+#extra {
+    display:none;
+    width: 327px;
+    height: 265px;
+    background-color: #FFFFFF;
+  padding-top: 7%;
+    position: absolute;
+    z-index: 0;
+    text-align: center;
+}
+#extra > li > a {
+    color: #2D314D;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 120px;
+}
+#extra > li {
+    padding-bottom: 15px;   
+}
+.general-name {
+   color: #2D314D; 
+   font-size: 40px;
+   font-weight: 100;
+
+}
+
+
+.mockups {
+    position: absolute;
+    margin-top: -120px;
+    /* margin-left: 180px; */
+   width: 327px;
+
+    display: block; 
+}
+.general {
+    background-color: #FAFAFA;
+    height: 649px;
+  
+}
+
+}

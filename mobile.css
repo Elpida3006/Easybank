@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;700&display=swap');
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+@media all and (max-width: 800px) {
+html {
+ padding-left: 2%;
+ padding-right: 2%;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 5px 0px;
+ 
+}
+
+
+main {
+    width: 375px;  
+    overflow-x: hidden;
+}
+section {
+    display: flex;
+ 
+}
+
+
+
+
+
+
+}
+

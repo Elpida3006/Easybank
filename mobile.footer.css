@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;300;400;700&display=swap');
+
+
+@media all and (max-width: 800px) {
+
+
+footer {
+    background-color: #2D314D;
+    display: block;
+    width: 375px;
+    height: 510px;
+    /* position: relative;
+    z-index: 1; */
+}
+
+
+
+
+
+li {
+   
+    list-style: none;
+    position:relative;
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.easybank-footer-logo{
+    width: 100%;
+    font-size: 24px;
+    display: block;
+    /* margin-top: 33px; */
+    padding: 2%;
+    text-align: center;
+}
+.easybank-footer-list {
+    width: 100%;
+    display: block;
+    margin-top: 33px;
+    
+  
+}
+.easybank-footer-list > div > li > a{
+    width: 100%;
+     color: #FFFFFF; 
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    /* position:relative; */
+    /* z-index: 1; */
+    /* padding-right: 2%; */
+    padding: 2%;
+    text-align: center;
+}
+.btn-footer {
+   
+        background: linear-gradient(135deg, #33D35E, #2AB6D9);
+        border-radius: 22px;
+        border: 0.5px solid transparent;
+        width: 163px;
+        height: 44px;
+        text-align: center;
+        display: block;
+        margin-left: 45%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+}
+.btn-footer > a{
+    color: #FFFFFF;
+        font-weight: 100;
+        font-size: 14px;
+}
+.easybank-footer-btn > div > p {
+  opacity: 50%;
+  color:#FFFFFF;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 30%;
+  
+  width: 100%;
+}
+
+.easybank-footer-logo > div {
+    padding-top: 5%;
+}
+.easybank-footer-list > div > li > a:hover{
+    color: #30C88F;
+
+}
+.easybank-footer-logo > div > img {
+    padding-left: 2%;
+}
+.easybank-footer-logo > div > img:hover {
+    background-color: #30C88F;
+}
+
+
+}
+
